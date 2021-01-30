@@ -1,6 +1,6 @@
 # USAGE
-# python human_activity_reco.py --model resnet-34_kinetics.onnx --classes action_recognition_kinetics.txt --input example_activities.mp4
-# python human_activity_reco.py --model resnet-34_kinetics.onnx --classes action_recognition_kinetics.txt
+# python3.8 human_activity_reco.py --model resnet-34_kinetics.onnx --classes action_recognition_kinetics.txt --input example_activities.mp4
+# python3.8 human_activity_reco.py --model resnet-34_kinetics.onnx --classes action_recognition_kinetics.txt
 
 # import the necessary packages
 import numpy as np
@@ -17,7 +17,7 @@ if __name__ == "__main__":
 	ap.add_argument("-c", "--classes", required=True,
 		help="/Users/udiram/Downloads/HumanActivityRecognition-master/action_recognition_kinetics.txt")
 	ap.add_argument("-i", "--input", type=str, default="",
-		help="optional path to video file")
+		help="/Users/udiram/Documents/GitHub/fitnessCV/venv/example.mp4")
 	args = vars(ap.parse_args())
 
 	# load the contents of the class labels file, then define the sample
