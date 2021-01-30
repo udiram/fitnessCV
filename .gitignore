@@ -1,4 +1,11 @@
+# venv folder is user-unique
 venv/
+# The idea folder is not ignored for some reason, just pretend it doesn't matter
 .idea/
+*.iml
+
+# Large Data Directories
+
+# General Files
 resnet-34_kinetics.onnx
 example.mp4
