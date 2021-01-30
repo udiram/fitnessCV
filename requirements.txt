@@ -1,0 +1,13 @@
+opencv-python
+wheel
+cryptography
+lxml
+numpy
+pytz
+cffi
+numba
+cython
+parse
+setuptools
+future
+docutils
