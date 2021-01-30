@@ -1,0 +1,1 @@
+This should contain any data needed. Specific folders can be ignored
