@@ -22,7 +22,7 @@ if __name__ == "__main__":
                    ["RElbow", "RWrist"], ["LShoulder", "LElbow"], ["LElbow", "LWrist"],
                    ["Neck", "RHip"], ["RHip", "RKnee"], ["RKnee", "RAnkle"], ["Neck", "LHip"],
                    ["LHip", "LKnee"], ["LKnee", "LAnkle"], ["Neck", "Nose"], ["Nose", "REye"],
-                   ["REye", "REar"], ["Nose", "LEye"], ["LEye", "LEar"] ]
+                   ["REye", "REar"], ["Nose", "LEye"], ["LEye", "LEar"]]
 
     inWidth = args.width
     inHeight = args.height
