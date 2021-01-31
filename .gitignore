@@ -7,5 +7,5 @@ venv/
 # Large Data Directories
 
 # General Files
-resnet-34_kinetics.onnx
-example.mp4
+ActivityRecog/resnet-34_kinetics.onnx
+Data/example.mp4

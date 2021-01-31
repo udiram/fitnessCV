@@ -13,11 +13,11 @@ if __name__ == "__main__":
 # construct the argument parser and parse the arguments
 	ap = argparse.ArgumentParser()
 	ap.add_argument("-m", "--model", required=True,
-		help="/Users/udiram/Downloads/HumanActivityRecognition-master/resnet-34_kinetics.onnx")
+		help="/Users/udiram/Documents/GitHub/fitnessCV/Data/resnet-34_kinetics.onnx")
 	ap.add_argument("-c", "--classes", required=True,
-		help="/Users/udiram/Downloads/HumanActivityRecognition-master/action_recognition_kinetics.txt")
+		help="/Users/udiram/Documents/GitHub/fitnessCV/Data/action_recognition_kinetics.txt")
 	ap.add_argument("-i", "--input", type=str, default="",
-		help="/Users/udiram/Documents/GitHub/fitnessCV/venv/example.mp4")
+		help="/Users/udiram/Documents/GitHub/fitnessCV/Data/example.mp4")
 	args = vars(ap.parse_args())
 
 	# load the contents of the class labels file, then define the sample
